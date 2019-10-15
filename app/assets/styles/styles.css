@@ -1,0 +1,21 @@
+$dopeGreen: #36fb49;
+
+body {
+
+    color: $dopeGreen;
+    padding: 107px;
+    margin : 10px;
+    
+    columns: 300px 2;
+    
+    }
+
+.box {
+    a {
+       display: block;
+        padding: 10px;      
+        
+    } 
+    
+ 
+}

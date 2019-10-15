@@ -1,0 +1,19 @@
+body {
+
+    color: #36fb49;
+    padding: 107px;
+    margin : 10px;
+    
+    -webkit-columns: 300px 2;
+    
+       -moz-columns: 300px 2;
+    
+            columns: 300px 2;
+    
+    }
+
+.box a {
+       display: block;
+        padding: 10px;      
+        
+    }
