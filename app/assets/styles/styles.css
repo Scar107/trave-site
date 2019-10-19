@@ -1,21 +1,6 @@
-$dopeGreen: #36fb49;
+@import "normalize.css";
 
-body {
-
-    color: $dopeGreen;
-    padding: 107px;
-    margin : 10px;
-    
-    columns: 300px 2;
-    
-    }
-
-.box {
-    a {
-       display: block;
-        padding: 10px;      
-        
-    } 
-    
- 
-}
+@import "base/_var";
+@import "modules/_large-hero";
+@import "base/_global";
+@import "modules/_btn"; 
