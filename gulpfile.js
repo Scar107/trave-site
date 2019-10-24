@@ -21,15 +21,26 @@ gulp.task('styles', function(){
         .pipe(gulp.dest('./app/temp/styles'));
 });
 
+gulp.task('browser-sync', function() {
+    browserSync.init({
+        server: {
+            baseDir: "app",
+           index: "index.html",
+           browser: "google-chrome"
+        }
+    });
+});
+
 gulp.task('watch', function(){
     
     
-    browserSync.init({
-       server : {
-           baseDir: "./app",
-           index: "index.html"
-       } 
-    });
+//    browserSync.init({
+//       server : {
+//           baseDir: "app",
+//           index: "index.html",
+//           browser: "google-chrome"
+//       } 
+//   });
     
     watch('./app/index.html',function(){
         gulp.start('html');
